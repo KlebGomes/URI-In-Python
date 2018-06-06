@@ -5,4 +5,4 @@ D = int(input())
 
 diferenca = ((A*B) - (C*D))
 
-print('DIFERENCA = %d' %diferenca)
+print('DIFERENCA = {}'.format(diferenca))
