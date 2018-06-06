@@ -2,4 +2,4 @@ A = int(input())
 B = int(input())
 soma = A + B
 
-print('SOMA = %d' %soma)
+print('SOMA = {}'.format(soma))
