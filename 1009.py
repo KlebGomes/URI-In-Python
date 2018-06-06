@@ -4,4 +4,4 @@ vendas = float(input())
 
 salario = float(salfixo + (vendas * (15/100)))
 
-print('TOTAL = R$ %0.2f' %salario)
+print('TOTAL = R$ {:.2f}'.format(salario))
