@@ -3,4 +3,4 @@ B = int(input())
 
 PROD = A * B
 
-print("PROD = %d" %PROD)
+print("PROD = {}".format(PROD))
