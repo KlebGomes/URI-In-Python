@@ -6,4 +6,4 @@ cod2, qtd2, prec2 = linha2
 
 total = (int(qtd1) * float(prec1)) + (int(qtd2) * float(prec2))
 
-print('VALOR A PAGAR: R$ %0.2f' %total)
+print('VALOR A PAGAR: R$ {:.2f}'.format(total))
